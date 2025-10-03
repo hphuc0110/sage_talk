@@ -38,7 +38,7 @@ export function TrainingMethodsSection() {
           <div className="bg-black/30 backdrop-blur-sm rounded-2xl p-8 mx-auto max-w-2xl">
             <h2 className="text-4xl lg:text-4xl font-bold text-white mb-4 drop-shadow-lg">Luyện Thuyết trình Tiếng Anh 1 - 1 chuyên sâu</h2>
             <h2 className="text-4xl lg:text-4xl font-bold text-[#dca923] mb-4 drop-shadow-lg">&</h2>
-            <h2 className="text-4xl lg:text-4xl font-bold text-white mb-4 drop-shadow-lg">Coach trình bày chuyên nghiệp</h2>
+            <h2 className="text-4xl lg:text-4xl font-bold text-white mb-4 drop-shadow-lg">Coaching trình bày chuyên nghiệp</h2>
             <div className="text-2xl lg:text-3xl font-bold text-white drop-shadow-lg">
             </div>
           </div>

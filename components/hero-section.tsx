@@ -34,7 +34,7 @@ export function HeroSection() {
                   <span className="text-[#dca923]">TALK</span>
                 </h1>
                 <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 font-light animate-in fade-in slide-in-from-left-8 duration-1000 delay-300 text-center lg:text-left">
-                  Giải bài toán bí ý - Nói lan man - Thiếu thuyết phục
+                Tiếng Anh Thuyết trình học thuật
                 </p>
               </div>
 

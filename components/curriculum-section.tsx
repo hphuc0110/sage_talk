@@ -7,62 +7,41 @@ export function CurriculumSection() {
   const modules = [
     {
       number: 1,
-      title: "THE “TELL ME ABOUT YOURSELF” MASTERCLASS",
-      subtitle: "Giới thiệu bản thân ngắn gọn, chuyên nghiệp, có dấu ấn cá nhân.",
-      color: "bg-yellow-600",
+      title: "",
+      subtitle: "",
       image: "/images/module1.jpg",
       details: [
-        "Ứng dụng cấu trúc POWER để định hình bài nói rõ ràng",
-        "Luyện từ vựng mạnh, động từ hành động",
-        "Điều chỉnh ngữ điệu & ánh mắt để tạo ấn tượng đầu tiên",
       ],
     },
     {
       number: 2,
-      title: "THE STAR STORYTELLING WORKSHOP",
-      subtitle: "Biết cách kể lại kinh nghiệm & thành tựu ấn tượng.",
-      color: "bg-yellow-600",
+      title: "",
+      subtitle: "",
       image: "/images/module2.jpg",
-      details: [
-        "Vận dụng framework STAR để kế chuyện logic",
-        "Biến task thành impact bằng ngôn ngữ kết quả",
-        "Thể hiện vai trò cá nhân nổi bật trong team",
-      ],
+      details: [],
     },
     {
       number: 3,
-      title: "HANDLING DIFFICULT & BEHAVIORAL QUESTIONS",
-      subtitle: "Ứng biến với những câu hỏi khó thông minh & chiến lược.",
-      color: "bg-yellow-600",
+      title: "",
+      subtitle: "",
       image: "/images/module3.jpg",
       details: [
-        "Nắm mindset khi gặp câu hỏi bẫy (lương, điểm yếu, thất bại...)",
-        "Luyện cách trả lời rõ – khéo – không né tránh",
-        "Sử dụng ngôn ngữ tích cực, mang tính xây dựng",
       ],
     },
     {
       number: 4,
-      title: "ADVANCED SCENARIOS",
-      subtitle: "Giao tiếp tự tin bằng cả lời nói & ngôn ngữ cơ thể.",
-      color: "bg-yellow-600",
+      title: "",
+      subtitle: "",
       image: "/images/module4.jpg",
       details: [
-        "Luyện ngữ điệu dứt khoát, kiểm soát tốc độ nói",
-        "Tập ánh mắt - tư thế - cử chỉ chuyên nghiệp",
-        "Biết pause đúng lúc để tạo trọng tâm & sự kết nối",
       ],
     },
     {
       number: 5,
-      title: "THE FINAL 10% STRATEGY, SALARY & FOLLOW-UP",
-      subtitle: "Kết thúc cuộc phỏng vấn bằng điểm nhấn chuyên nghiệp.",
-      color: "bg-yellow-600",
+      title: "",
+      subtitle: "",
       image: "/images/module5.jpg",
       details: [
-        "Biết đặt câu hỏi ngược thể hiện tư duy chủ động",
-        "Học cách close và khẳng định mức độ phù hợp với vị trí",
-        "Truyền tải mong muốn rõ ràng nhưng không gây áp lực",
       ],
     },
   ]
@@ -78,9 +57,12 @@ export function CurriculumSection() {
             Lộ trình 5+1
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            BẠN SẼ NHẬN ĐƯỢC HƠN CẢ MỘT <span className="text-[#01693c]"></span>
+            BẠN SẼ NHẬN ĐƯỢC HƠN CẢ MỘT{" "}
+            <span className="text-[#01693c]"></span>
           </h2>
-          <h3 className="text-4xl lg:text-5xl font-bold text-[#01693c]">KHÓA HỌC TIẾNG ANH</h3>
+          <h3 className="text-4xl lg:text-5xl font-bold text-[#01693c]">
+            KHÓA HỌC TIẾNG ANH
+          </h3>
         </div>
 
         {/* 2 cột */}
@@ -92,7 +74,11 @@ export function CurriculumSection() {
                 key={module.number}
                 onClick={() => setSelected(module.number)}
                 className={`p-6 rounded-xl cursor-pointer transition-all duration-500 
-                  ${selected === module.number ? "bg-[#01693c] text-white" : `${module.color} text-white`}
+                  ${
+                    selected === module.number
+                      ? "bg-[#01693c] text-white"
+                      : "bg-yellow-500 text-black"
+                  }
                   hover:scale-105 hover:shadow-xl`}
               >
                 <div className="flex items-center gap-4">
@@ -108,8 +94,8 @@ export function CurriculumSection() {
             ))}
           </div>
 
-          {/* Bên phải: hiển thị ảnh + chi tiết module được chọn */}
-          <div className="bg-yellow-50 rounded-xl p-6 shadow-lg">
+          {/* Bên phải: hiển thị ảnh + chi tiết */}
+          <div className="bg-gray-50 rounded-xl p-6 shadow-lg">
             {modules
               .filter((m) => m.number === selected)
               .map((module) => (
