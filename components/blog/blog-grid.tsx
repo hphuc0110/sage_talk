@@ -3,31 +3,24 @@ import { BlogCard } from "./blog-card"
 const blogPosts = [
   {
     id: "star-method",
-    title: "Cách để thuyết trình hay hơn bằng phương pháp Storytelling",
-    image: "/images/blog/star-method.webp",
+    title: "Tiếng Anh Thuyết Trình Học Thuật – Chìa Khóa Thống Lĩnh Hội Thảo Quốc Tế",
+    image: "/images/1.webp",
     category: "Phỏng vấn",
     readTime: "5 phút đọc",
   },
   {
     id: "experience-storytelling",
-    title: "Mở đầu thuyết trình chiến lược với SCQA Model trong 60s",
-    image: "/images/blog/experience-storytelling.webp",
+    title: "Nâng Tầm Nghiên Cứu Với Tiếng Anh Thuyết Trình Học Thuật – Sức Mạnh Của Storytelling",
+    image: "/images/2.webp",
     category: "Kỹ năng giao tiếp",
     readTime: "6 phút đọc",
   },
   {
     id: "tell-me-about-yourself",
-    title: "THE ARENA – Làm chủ kỹ năng trả lời Q&A bằng tiếng Anh cho lãnh đạo",
-    image: "/images/blog/tell-me-about-yourself.webp",
+    title: "7 Tips Vàng Giúp Thuyết Trình Học Thuật Bằng Tiếng Anh Tự Tin Và Thuyết Phục",
+    image: "/images/3.webp",
     category: "Phỏng vấn",
     readTime: "7 phút đọc",
-  },
-  {
-    id: "power-method",
-    title: "Tiếng Anh Thuyết Trình Cho Quản Lý Cấp Cao: Lộ Trình Học Dựa Trên Khoa Học Andragogy",
-    image: "/images/blog/power-method.webp",
-    category: "Kỹ năng giao tiếp",
-    readTime: "5 phút đọc",
   },
 ]
 
