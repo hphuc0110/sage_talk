@@ -16,8 +16,7 @@ export function HeroSection() {
           overflow-hidden bg-black
         "
       >
-        {/* Overlay làm ảnh dịu hơn */}
-        <div className="absolute inset-0 bg-black/20 z-[1]" />
+
 
         {/* Ảnh desktop */}
         <img
